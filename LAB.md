@@ -212,7 +212,7 @@ Mo `src/short_term.py` va tim `detect_pressure`, `compact`, `extract_durable_not
 Viec can lam:
 
 1. Chay demo mac dinh (`max_recent_messages=6` trong `src/demo_short_term.py`).
-2. Sua tam constructor xuong `max_recent_messages=4`, chay lai. Sliding van phai giu `REVIEW-DEADLINE-1600` nho durable note, du raw turn da bi evict.
+2. Sua tam constructor xuong `max_recent_meVssages=4`, chay lai. Sliding van phai giu `REVIEW-DEADLINE-1600` nho durable note, du raw turn da bi evict.
 3. **Khong** can sua `src/evaluate.py`. E10 dung `fixture_messages` + compaction rieng; unit test `tests/test_short_term.py` da lock hanh vi nay.
 4. Ghi 2-3 cau vao `README_submission.md`: compaction giu constraint nao, vi sao buffer khong du.
 
